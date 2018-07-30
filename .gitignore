@@ -106,3 +106,4 @@ venv.bak/
 # custom 
 *.csv
 *.docx
+.idea
