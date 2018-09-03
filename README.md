@@ -19,8 +19,9 @@ These fields have all been one way hashed using SHA2-512 to keep the data anonym
 5. Install Reqs: pip install -r requirements.txt
 6. Unzip course_ratings.zip: unzip course_ratings.zip
 
-# from here you can start the notebook or run the api: python app.py
-# this will start on your localhost port 5000
+from here you can start the notebook or run the api: python app.py
+this will start on your localhost port 5000
+
 ## Sample Json Call ##
 ```json
 {
@@ -36,13 +37,13 @@ These fields have all been one way hashed using SHA2-512 to keep the data anonym
 # there are 2 blocks for the actual learner. The smaller one is to test locally, the bigger one should be run on a GPU enabled system
 
 #files
-proposal.pdf - Initial Project Proposal
-report.pdf - Final Report
-project.ipynb - Project Notebook
-analysis.ipynb - Data Analysis Notebook
-course_ratings.zip - Compressed Course Ratings
-app.py - Simple flask app as a proof of concept api
-requirements.txt - python module requirments 
-models - Directory that holds model info, tmp file, and also serialized data needed to rebuild the model and lookup tables for the api
+1. proposal.pdf - Initial Project Proposal
+2. report.pdf - Final Report
+3. project.ipynb - Project Notebook
+4. analysis.ipynb - Data Analysis Notebook
+5. course_ratings.zip - Compressed Course Ratings
+6. app.py - Simple flask app as a proof of concept api
+7. requirements.txt - python module requirments 
+8. models - Directory that holds model info, tmp file, and also serialized data needed to rebuild the model and lookup tables for the api
 
 
