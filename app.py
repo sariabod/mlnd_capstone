@@ -43,7 +43,7 @@ def my_load_model():
         emb_szs = pickle.load(fp)
 
     md = ColumnarModelData.from_data_frame("models/", val_idx, df, y.astype(np.float32), cat_flds=cat_vars, bs=128)
-    m = md.get_learner(emb_szs,0 ,0.04, 1, [1000,500], [0.001,0.01],y_range=(0,5))
+    m = md.get_learner(emb_szs,0 ,0.4, 1, [200,100], [0.5,0.01],y_range=(0,5))
     m.load('mdl')
     return m.model
 
