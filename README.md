@@ -45,5 +45,6 @@ this will start on your localhost port 5000
 6. app.py - Simple flask app as a proof of concept api
 7. requirements.txt - python module requirments 
 8. models - Directory that holds model info, tmp file, and also serialized data needed to rebuild the model and lookup tables for the api
+9. test_ratings.zip - This is data pulled about a month after the initial data that we used for training. This will be used for a final set on unknown data.
 
 
